@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="componentHelper">
+    <apiVersion>46.0</apiVersion>
+    <description>Component Helper (directs data to other components)</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Component Helper</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__HomePage,lightning__RecordPage">
+            <property name="source" type="String" default="" 
+                        label="Name of the data source" />
+            <property name="componentName" type="String" default="" 
+                        label="Name to identify as data source when sending data to dependent components" />
+            <property name="payloadTemplate" type="String" default="" 
+                        label="JSON template to format the data when sending to dependent components" />
+        </targetConfig>
+    </targetConfigs>
+
+</LightningComponentBundle>

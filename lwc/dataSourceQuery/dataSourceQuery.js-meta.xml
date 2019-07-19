@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="dataSourceQuery">
+    <apiVersion>46.0</apiVersion>
+    <description>Accepts SOQL query as parameter to retrieve and propagate data to other components</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Data Source Query</masterLabel>
+
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__HomePage,lightning__RecordPage">
+            <property name="componentName" type="String" default="" 
+                label="Name to identify as data source when sending data to dependent components" />
+            <property name="SOQL" type="String" default="" 
+                label="SOQL query that will retrieve the data needed by other components" />
+        </targetConfig>
+    </targetConfigs>
+
+</LightningComponentBundle>

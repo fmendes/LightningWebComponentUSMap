@@ -1,0 +1,32 @@
+/* ? */
+.path0003 { fill:blue; fill-opacity:1; fill-rule:evenodd; stroke:none; }
+
+/* Delaware to Virginia */
+.path0005 { fill:none; stroke:#d0c0a0; stroke-width:1.25836766; stroke-linecap:butt; stroke-linejoin:miter; stroke-miterlimit:4; stroke-opacity:1; stroke-dasharray:none; }
+
+.CO_OK, .NM_OK, .NM_TX, .WY_CO, .NE_CO, .CO_KS, .WY_NE, .WY_SD, .MT_SD, .MT_ND, .ND_SD, .ND_MN, .SD_MN, .SD_IA, .SD_NE, .MN_IA, .MN_WI, .WI_MI, .IA_WI, .WI_IL, .IA_IL, .IA_MO, .NE_IA, .NE_KS, .NE_MO, .KS_MO, .KS_OK, .OK_TX, .OK_AR, .OK_MO, .MO_AR, .MO_TN, .MO_KY, .MO_IL, .TX_AR, .TX_LA, .AR_LA, .LA_MS, .AR_MS, .IL_IN, .IL_KY, .IN_KY, .IN_OH, .IN_MI, .AR_TN, .TN_MS, .MS_AL, .TN_AL, .WA_ID, .WA_OR, .OR_ID, .CA_NV, .ID_NV, .ID_UT, .CA_AZ, .NV_AZ, .NV_UT, .OR_CA, .OR_NV, .ID_MT, .MT_WY, .ID_WY, .UT_WY, .UT_CO, .UT_AZ, .AZ_NM, .CO_NM, .MI_OH, .OH_KY, .KY_WV, .KY_VA, .KY_TN, .AL_FL, .AL_GA, .GA_FL, .TN_GA, .NC_GA, .GA_SC, .NC_SC, .TN_NC, .VA_TN, .VA_NC, .WV_VA, .VA_MD, .WV_MD, .PA_WV, .OH_WV, .OH_PA, .NY_PA, .NY_NJ, .PA_NJ, .DE_NJ, .NY_DE, .MD_DE, .PA_MD, .NY_CT, .NY_MA, .NY_VT, .VT_NH, .VT_MA, .NH_MA, .NH_ME, .MA_CT, .CT_RI, .RI_MA { fill:none; stroke:white; stroke-width: 2pt; }
+
+.VT_Canada, .NM_Mexico, .TX_Mexico, .MI_Canada, .NY_Canada, .AK_Canada, .CA_Mexico, .AZ_Mexico, .WA_Canada, .ID_Canada, .MT_Canada, .ME_Canada, .NH_Canada, .ND_Canada, .MN_Canada  { fill:none; stroke:white; stroke-width:2.5; stroke-dasharray:none; }
+
+.Atlantic, .NH_Atlantic, .MA_Atlantic, .GA_Atlantic, .SC_Atlantic, .NC_Atlantic, .VA_Atlantic, .MD_Atlantic, .RI_Atlantic, .CT_Atlantic, .NJ_Atlantic, .NY_Atlantic, .DE_Atlantic, .CA_Pacific, .WA_Pacific, .OR_Pacific, .AL_Gulf, .MS_Gulf, .LA_Gulf { fill:none; stroke:white; stroke-width:1pt; }
+.Great_Lakes_borders { fill:none; stroke:white; }
+.IN_Great_Lakes, .MI_Great_Lakes, .PA_Great_Lakes, .NY_Great_Lakes, .OH_Great_Lakes, .IL_Great_Lakes, .WI_Great_Lakes, .MN_Great_Lakes { fill:none; stroke:white; stroke-width:1pt; }
+
+.littleCanadianPeninsula { fill:#f7d3aa; fill-opacity:1; fill-rule:evenodd; stroke:none; }
+.Inset_border { fill:none; stroke:whitesmoke; stroke-width:1.88755155; stroke-dasharray:none; }
+
+.MassachusettsToText, .NewHampshireToText, .RhodeIslandToText, .ConnecticutToText, .NewJerseyToText, .DelawareToText, .WashingtonDCToText, .WestVirginiaToText, .VermontToText, .MarylandToText { fill:none; stroke:#000000; stroke-width:0.5; stroke-miterlimit:4; stroke-dasharray:none; }
+
+.allText {
+  font-size:12px;
+  font-weight:bold;
+  text-align:start;
+  text-anchor:middle;
+  fill:#000000;
+  fill-opacity:0.75;
+  font-family: 'Arial Narrow',sans-serif;
+}
+
+.secondRowText {
+    font-size:11px;
+}

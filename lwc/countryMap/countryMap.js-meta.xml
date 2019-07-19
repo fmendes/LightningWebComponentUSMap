@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>46.0</apiVersion>
+    <description>Country Map</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Country Map</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__HomePage,lightning__RecordPage">
+            <property name="source" type="String" default="" 
+                        label="Name of the ComponentHelper to use as data source" />
+            <property name="backgroundColor" type="String" default="white" 
+                        label="Background color name" />
+            <property name="stateColorPalette" type="String" default="cyan,lightSkyBlue,lightBlue,dodgerBlue" 
+                        label="List of colors for the map palette (up to 4, leave blank for gray)" />
+            <property name="individualStateColors" type="String" default="" 
+                        label="List of states:color pairs (example:  FL:blue,GA:green) leave blank to just use the palette)" />
+            
+            <property name="hideStateNames" type="Boolean" default="false" 
+                        label="Hide states names" />
+            <property name="displayOnlyTheseStateNames" type="String" default="" 
+                        label="Only display names for these states (example:  FL,GA,TX)" />
+            <property name="stateText" type="String" default="" 
+                        label="List of states:text pairs (example: FL:$450,GA:not applicable,TX:50%)" />
+        </targetConfig>
+    </targetConfigs>
+        
+</LightningComponentBundle>
